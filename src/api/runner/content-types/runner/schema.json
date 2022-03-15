@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "runners",
+  "info": {
+    "singularName": "runner",
+    "pluralName": "runners",
+    "displayName": "Runner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "runner_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "height": {
+      "type": "float",
+      "required": true
+    },
+    "weight": {
+      "type": "float",
+      "required": true
+    },
+    "age": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
