@@ -31,6 +31,10 @@
     "age": {
       "type": "integer",
       "required": true
+    },
+    "color": {
+      "type": "string",
+      "default": "#FFFFFF"
     }
   }
 }
