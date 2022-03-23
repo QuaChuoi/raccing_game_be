@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demoposts",
+  "info": {
+    "singularName": "demopost",
+    "pluralName": "demoposts",
+    "displayName": "demopost"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "abc": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

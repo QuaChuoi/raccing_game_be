@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demo_results",
+  "info": {
+    "singularName": "demo-result",
+    "pluralName": "demo-results",
+    "displayName": "demoResult",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "singleresult": {
+      "type": "component",
+      "repeatable": true,
+      "component": "idkwii.single-result"
+    }
+  }
+}

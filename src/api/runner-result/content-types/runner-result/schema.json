@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "runner_results",
+  "info": {
+    "singularName": "runner-result",
+    "pluralName": "runner-results",
+    "displayName": "RunnerResult",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "position": {
+      "type": "integer",
+      "required": true,
+      "unique": false
+    },
+    "timeResult": {
+      "type": "float"
+    },
+    "race_result": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::race-result.race-result",
+      "inversedBy": "runner_results"
+    },
+    "runnername": {
+      "type": "string"
+    }
+  }
+}

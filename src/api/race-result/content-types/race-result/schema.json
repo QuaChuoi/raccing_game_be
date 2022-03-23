@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "race_results",
+  "info": {
+    "singularName": "race-result",
+    "pluralName": "race-results",
+    "displayName": "RaceResult",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "runner_results": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::runner-result.runner-result",
+      "mappedBy": "race_result"
+    }
+  }
+}
